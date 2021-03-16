@@ -1,6 +1,8 @@
 
 import logging
 
+print(logging.root.manager.loggerDict)
+
 logger = logging.getLogger('test_logging')
 logger.setLevel(logging.DEBUG)
 
